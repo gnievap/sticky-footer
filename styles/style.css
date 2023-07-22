@@ -5,6 +5,27 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;  
+}
+
+h1 {
+    padding-top: 10px;
+    align-items: center;
+}
+
+.image img{
+    padding-top: 10px;
+    width: 400px;
+    height: 500px;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
@@ -25,9 +46,22 @@ a:hover {
     text-decoration: underline;
 }
 
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .ft-title {
     color: #fff;
     font-family: 'Merriweather', serif;
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
 }
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+
