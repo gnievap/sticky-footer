@@ -1,3 +1,23 @@
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+
+    .ft-main {
+
+        justify-content: space-around;
+
+    }
+
+}
+
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+
+    .ft-main {
+
+        justify-content: space-evenly;
+
+    }
+
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
@@ -22,8 +42,8 @@ h1 {
 
 .image img{
     padding-top: 10px;
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 300px;
 }
 
 ul {
@@ -49,7 +69,7 @@ a:hover {
 .ft-main {
     padding: 1.25rem 1.875rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*will let the footer wrap into multiple rows based on the viewport size */
 }
 
 .ft-title {
@@ -62,6 +82,26 @@ a:hover {
 .ft-main-item {
     padding: 1.25rem;
     min-width: 12.5rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+    background-color: #00d188;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
 }
 
 
